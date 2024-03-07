@@ -1,15 +1,8 @@
-<details style="margin-top: 16px">
-  <summary style="cursor: pointer; color: blue;"><b>English</b></summary>
+Реализовать метод, возвращающий сумму цифр числа:
 
 
+```
+Например int cell = 123; 
 
-</details>
-
-<hr>
-
-<details style="margin-top: 16px">
-  <summary style="cursor: pointer; color: blue;"><b>На русском</b></summary>
-
-
-
-</details>
+Сумма цифр = 6 (1+2+3)
+```

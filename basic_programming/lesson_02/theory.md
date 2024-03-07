@@ -1,15 +1,1 @@
-<details>
-  <summary style="cursor: pointer;"><b>English</b></summary>
-
-
-
-</details>
-
-<hr>
-
-<details style="padding-top: 18px">
-  <summary style="cursor: pointer;"><b>На русском</b></summary>
-
-
-
-</details>
+* [Материалы занятия](https://lms.ait-tr.eu/#/student-cabinet/lessons/group/cohort44E/module/basic_programming/lesson/lesson_02#code)
