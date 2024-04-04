@@ -1,7 +1,75 @@
 .violet-style {
     color: blueviolet;
-    font-size: 50px;
+    font-size: 20px;
 }
 #four {
     color: bisque;
+}
+
+.violet-style .yellowtext {
+    color: yellow;
+}
+
+.violet-style + .blue-style {
+    background-color: aqua;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+.fontsize25 {
+    font-size: 25px;
+}
+
+.violet-style.fontsize25 {
+    background-color: brown;
+}
+
+.experimets {
+    font-size: 20px !important;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #555505;
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.enemy {
+    font-size: 25px;
+}
+
+.box1 {
+    background-color:black;
+}
+.box2 {
+    background-color: green;
+}
+.box3 {
+    background-color: coral;
+    /* border-style: solid;
+    border-color: #555505;
+    border-width: 5px; */
+    border: solid #555505 5px;
+}
+/* .box1, .box2, .box3 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+} */
+.box {
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    
 }
