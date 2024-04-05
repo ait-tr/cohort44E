@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+    /* font-size: 20px; */
+}
+
+nav {
+    width: 50%;
+    height: 50%;
+    background-color: coral;
+    font-size: 1.25rem;
+}
+
+main {
+    min-height: calc(100vh - 200px - 100px);
+}
+
+footer {
+    height: 100px;
+    background-color: aqua;
+}
+
+
+/* 
+rem = коефициент от корневого размера (html)
+em = коеф от родителя
+% = % от родителя
+vh = % высота от вьюпорта
+vw = % ширина от вьюпорта
+*/
