@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: block;
+    margin: 100px auto;
+    z-index: 20;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    /* margin: 10px; */
+    background-color: aquamarine;
+}
+
+#b2 {
+    /* margin-top: 80px; */
+    position: relative;
+    top: -30px;
+    /* left: 30px; */
+    right: 30px;
+    /* bottom: 30px; */
+}
+
+#b2a {
+    position: absolute;
+    background-color: chocolate;
+    top: 250px;
+    left: 40%;
+    z-index: -20;
+}
+
+#b3 {
+    background-color: blueviolet;
+    position: relative;
+}
+
+#b4 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#f {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    background-color: chartreuse;
+    bottom: 50px;
+    right: 50px;
+}
+
+header {
+    height: 100px;
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+}
