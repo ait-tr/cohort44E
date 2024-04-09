@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-lesson-container {
+    display: flex;
+    /* width: 900px; */
+    height: 600px;
+    background-color: antiquewhite;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    gap: 0px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.flex-lesson-container div {
+    /* width: 150px; */
+    height: 150px;
+    background-color: aqua;
+    font-size: 36px;
+    width: 30%;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical {
+    display: flex;
+    height: 50vh;
+    background-color: blueviolet;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vertical div {
+    background-color: cadetblue;
+    /* height: 100%; */
+    width: 100%;
+    flex-grow: 0;
+}
+
+.vertical div:first-child {
+    background-color: brown;
+    /* height: 100px; */
+    width: 100%;
+    flex-grow: 1;
+}
