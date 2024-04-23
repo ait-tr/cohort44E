@@ -1,0 +1,26 @@
+.parent {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 601px) {
+    .parent {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .parent {
+        display: none;
+        gap: 100px;
+        flex-direction: column;
+    }
+}
+
+
+.inner {
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+}
