@@ -10,6 +10,7 @@ public class Main {
         employees.add(new QAEngineer("John", 6000));
         employees.add(new QAEngineer("Eduard", 5300));
         employees.add(new Manager("Михалыч", 5000,3000 ));
+        //employees.add(new Employee("Михалыч", 5000 ));
 
         System.out.println(employees);
 

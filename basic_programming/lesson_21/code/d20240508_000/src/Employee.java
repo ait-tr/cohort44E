@@ -1,6 +1,6 @@
-public class Employee {
+public abstract class Employee {
     private String name;
-    private  double salary;
+    private double salary;
 
 
     public Employee(String name, double salary) {
@@ -20,10 +20,15 @@ public class Employee {
         return salary;
     }
 
-    public void work(){}
+    public abstract void work();
 
     public void temp(){
         System.out.println("Employee temp");
     }
 
+    @Override
+    public String toString() {
+        return  "name='" + name + '\'' +
+                ", salary=" + salary;
+    }
 }
