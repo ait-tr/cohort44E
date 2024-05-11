@@ -17,6 +17,7 @@ public class Main {
         for (int i = 0; i < employees.size(); i++) {
             System.out.println("------ " + employees.get(i).getName());
             employees.get(i).salary();
+            employees.get(i).work();
         }
         System.out.println("------------------------------------------");
         Manager manager1 = new Manager("Robert", 6800,1000);
