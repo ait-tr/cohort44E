@@ -21,16 +21,16 @@
 ### IS-A («является»)
 Давайте рассмотрим пример: есть три класса: 
 *JavaProgrammer*, *PhotonProgrammer*, *JavaScriptProgrammer*. 
-О любом из объектов этих классов можно сказать "является Programmer":  
+О любом из объектов этих классов можно сказать "является CPlusProgrammer":  
 ~~~
-каждый JavaProgrammer является Programmer  
-каждый PhotonProgrammer является Programmer  
-каждый JavaScriptProgrammer является Programmer
+каждый JavaProgrammer является CPlusProgrammer  
+каждый PhotonProgrammer является CPlusProgrammer  
+каждый JavaScriptProgrammer является CPlusProgrammer
 ~~~  
-и т.д., или на английском: *every JavaProgrammer **IS A** Programmer*
+и т.д., или на английском: *every JavaProgrammer **IS A** CPlusProgrammer*
 
 Т.е. каждый объект JavaProgrammer, PhotonProgrammer или JavaScriptProgrammer 
-является подтипом более общего класса Programmer. Такое отношение между классам называют
+является подтипом более общего класса CPlusProgrammer. Такое отношение между классам называют
 отношением **IS-A**.  
 Отношение IS-A («является») - основной принципом применения наследования. 
 Любой дочерний класс является подтипом класса родителя или, другими словами,
@@ -40,7 +40,7 @@
 
 Что бы объявить дочерний класс используется ключевое слово `extends`:
 ~~~java
-public class JavaProgrammer extends Programmer{
+public class JavaProgrammer extends CPlusProgrammer{
     
 }
 ~~~
@@ -53,7 +53,7 @@ public class JavaProgrammer extends Programmer{
 
 Такой метод называется *переопределенным* и может быть помечен как `@Override`
 ~~~java
-public class Programmer{
+public class CPlusProgrammer{
     public void writeCode(){
         System.out.println("write code");
     }
@@ -61,7 +61,7 @@ public class Programmer{
 ~~~
 
 ~~~java
-public class JavaProgrammer extends Programmer{
+public class JavaProgrammer extends CPlusProgrammer{
     @Override
     public void writeCode(){
         System.out.println("write Java code");
