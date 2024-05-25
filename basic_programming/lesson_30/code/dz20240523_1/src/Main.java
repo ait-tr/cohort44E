@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static String stringHandler (String str){
-        String[] namesArray = str.split(";");
+        String[] namesArray = str.split(";"); // Ivan Ivanov;Oleg Petrov;Anna Kovaleva -> {"Ivan Ivanov","Oleg Petrov", "Anna Kovaleva"}
         for (int i = 0; i < namesArray.length; i++) {
             namesArray[i] = toShortFio(namesArray[i]);
         }
@@ -22,18 +22,21 @@ public class Main {
 
     }
 
+    // "Ivan Ivanov" -> "I.Ivanov"
     public static String toShortFio(String str){
         String[] namesArray = str.split(" ");
         return "" + namesArray[0].charAt(0)+'.' + namesArray[1];
     }
 
+
+    //{"I.Ivanov","O.Petrov", "A.Kovaleva"} -> "I.Ivanov;O.Petrov;A.Kovaleva"
     public static String join(String[] array){
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < array.length; i++) {
             result.append(array[i]).append(";");
         }
-        result.setLength(result.length()-1);
+       result.setLength(result.length()-1);
         return result.toString();
     }
 
