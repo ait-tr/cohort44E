@@ -48,3 +48,9 @@ public class Main {
 
     }
 }
+class Text{
+    private String value;  // Jack John and Ann
+}
+Text text = new Text("Jack John and Ann");
+
+for(String str : text)
