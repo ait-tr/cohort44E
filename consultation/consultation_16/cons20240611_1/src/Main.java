@@ -6,7 +6,7 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args) {  ()
 
-        "(746*6)(6*(737+2))()"
+
 
         //String str = "qwerty";
         var str = "qwert";
